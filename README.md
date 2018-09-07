@@ -1,0 +1,3 @@
+# chess
+
+`npm run start`

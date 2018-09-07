@@ -1,0 +1,22 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.2",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "build": "npx webpack",
+    "start": "npx webpack && open dist/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Geoffrey Hale",
+  "license": "ISC"
+}
